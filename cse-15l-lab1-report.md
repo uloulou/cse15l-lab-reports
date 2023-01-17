@@ -7,7 +7,7 @@ This is a simple tutorial that helps you to prepare for this course. There are t
 
 ## *IMPORTANT: Setting up your CSE 15L Account
 
-You need to look up the course-specific account for CSE15L at this link: **https://sdacs.ucsd.edu/~icc/index.php**
+You need to look up the course-specific account for CSE15L at this link: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
 
 THis is what the website homepage looks like:
 
