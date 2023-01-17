@@ -35,10 +35,12 @@ After Installation, you should be able to open the vs code and see a window like
 
 Many CSE courses use course-specific accounts. It is similar to the account that you might get in future jobs on other systems. This section shows how to use VS code terminal to connect to a remote computer over the Internet to work there.
 
-For Windows, you would need to install `git` which has some useful tools that you can use.
+For **Windows**, you would need to install `git` which has some useful tools that you can use.
 
 [Git for Windows](https://gitforwindows.org/)
 
 After Installation, click onto this post to set the default terminal to `git bash` in VS Code:
 
 [Using Bash on Windows in VScod](https://stackoverflow.com/a/50527994)
+
+For **Mac**, bash should be the default shell. If not, open terminal, then go to settings. In the General section, you will be able to change your shell.
