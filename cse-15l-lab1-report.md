@@ -47,3 +47,12 @@ Next, open a terminal in VScode to use `ssh`. (You can use Ctrl + ` or use the T
 `$ ssh cs15lwi23xxx@ieng6.ucsd.edu`
 
 **Note**: it is *cs one five lowercase L*. Also, you do not need to type in `$` when you are using the terminal. It is a convention for how commands are written.
+
+Since this is most probably the first time you have connected to this server, a message will show up.
+
+`⤇ ssh cs15lwi23xxx@ieng6.ucsd.edu
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? `
+
+Type `yes` and press enter. Then it will ask for you 
