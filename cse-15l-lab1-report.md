@@ -35,4 +35,4 @@ After Installation, you should be able to open the vs code and see a window like
 
 Many CSE courses use course-specific accounts. It is similar to the account that you might get in future jobs on other systems. This section shows how to use VS code terminal to connect to a remote computer over the Internet to work there.
 
-For Windows, you would need to install `git`
+For Windows, you would need to install `git`with orange
