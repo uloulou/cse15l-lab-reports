@@ -76,3 +76,11 @@ Some useful commands to test:
 * `ls <directory>` <directory> can be /home/linux/ieng6/cs15lwi23/cs15lwi23xxx, and substitute xxx with other group members' username.
 
 and other commands that you would like to try.
+          
+Here is an example:
+          
+![Image](Testcode.png)
+          
+## Log Out
+
+To log out of the remote server, uses **Ctrl-D** and it will run the command `exit` in your terminal and exit the terminal itself.
