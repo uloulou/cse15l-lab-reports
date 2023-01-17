@@ -1,7 +1,7 @@
 # CSE 15L START UP TUTORIAL
 This is a simple tutorial that helps you to prepare for this course. There are the **three main aspects** (*the bullet points below*) that 15L students need to have and this tutorial will teach you step by step.
 
-          1. VS code Installation
+          1. Visual Studio Code Installation
           2. Remotely Connecting
           3. Test out the commands
 
@@ -21,3 +21,6 @@ If youâ€™ve successfully reset the pw, wait for a few minutes for it to and youâ
 
 At this point, you are free to start working on the following sections.
 
+## 1. Visual Studio Code Installation
+
+(If you are using the computers in the lab, you can simply open VS code that is installed inside. You are allowed to work on the lab computers for this course, set-up for personal laptops is not required.)
