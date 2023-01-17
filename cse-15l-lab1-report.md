@@ -46,4 +46,4 @@ Next, open a terminal in VScode to use `ssh`. (You can use Ctrl + ` or use the T
 
 `$ ssh cs15lwi23xxx@ieng6.ucsd.edu`
 
-**Note**: it is cs one five lowercase L. Also, you do not need to type in $ when you are using the terminal. It is a converntion for how commands are written.
+**Note**: it is *cs one five lowercase L*. Also, you do not need to type in `$` when you are using the terminal. It is a convention for how commands are written.
