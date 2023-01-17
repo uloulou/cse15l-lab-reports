@@ -28,3 +28,7 @@ Visit the Visual Studio Code website https://code.visualstudio.com/, and there w
 After Installation, you should be able to open the vs code and see a window like this. (It might have different colors or menu bar based on which system and settings you are using.)
 
 ![Image](VScode.png)
+
+## 2. Remotely Connecting
+
+**NOTE**: In this section, the command shown in the code block should be typed into the terminal of the vs code in your computer.
