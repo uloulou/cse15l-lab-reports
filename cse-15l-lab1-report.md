@@ -16,3 +16,8 @@ The tutorial for resetting the password of the account is in this **Doc**:
 [[TUTORIAL] Resetting Password for CSE15L Account](https://docs.google.com/document/d/17kvwYHXtrP-snWoNsSnPQF5Vu9tyR0WawotVxYEB4do/edit?usp=sharing)
 
 If you still face any difficulty resetting the password, feel free to ask tutors or instructors about it.
+
+If you’ve successfully reset the pw, wait for a few minutes for it to and you’re waiting a few minutes for the system to respond. 
+
+At this point, you are free to start working on the following sections.
+
