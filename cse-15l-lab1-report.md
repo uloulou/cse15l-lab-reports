@@ -1,5 +1,5 @@
-# CSE 15L START UP TUTORIAL
-This is a simple tutorial that helps you to prepare for this course. There are the **three main aspects** (*the bullet points below*) that 15L students need to have and this tutorial will teach you step by step.
+# CSE 15L START-UP TUTORIAL
+This is a simple tutorial that helps you to prepare for this course. There are the **three main aspects** (*the bullet points below*) that 15L students need to have and this tutorial will teach you step by step. If you face any difficulty in any steps that the start-up tutorial is not able to answer, feel free to ask tutors or instructors about it.
 
           1. Visual Studio Code Installation
           2. Remotely Connecting
@@ -14,8 +14,6 @@ The tutorial for resetting the password of the account is in this **Doc**:
 ***You must read and follow the directions in the tutorial below carefully***
 
 [[TUTORIAL] Resetting Password for CSE15L Account](https://docs.google.com/document/d/17kvwYHXtrP-snWoNsSnPQF5Vu9tyR0WawotVxYEB4do/edit?usp=sharing)
-
-If you still face any difficulty resetting the password, feel free to ask tutors or instructors about it.
 
 If you’ve successfully reset the pw, wait for a few minutes for it to and you’re waiting a few minutes for the system to respond. 
 
