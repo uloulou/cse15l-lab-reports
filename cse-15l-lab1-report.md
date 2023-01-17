@@ -61,6 +61,18 @@ Password:`
 
 ![Image](Login.png)
 
-Now your terminal is connected to a computer in CSE basement and the commands you run will also be on that computer.
+Now your terminal is connected to a computer in the CSE basement and the commands you run will also be on that computer.
 
 ## 3. Test out the Commands
+
+Since your computer is connected to the server, try to run some commands a few times to see how it works after using ssh.
+
+Some useful commands to test:
+
+* `cd`
+* `cd ~`
+* `ls -a`
+* `ls -lat`
+* `ls <directory>` <directory> can be /home/linux/ieng6/cs15lwi23/cs15lwi23xxx, and substitute xxx with other group members' username.
+
+and other commands that you would like to try.
