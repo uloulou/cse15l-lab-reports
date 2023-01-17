@@ -9,6 +9,10 @@ This is a simple tutorial that helps you to prepare for this course. There are t
 
 You need to look up the course-specific account for CSE15L at this link: **https://sdacs.ucsd.edu/~icc/index.php**
 
+THis is what the website homepage looks like:
+
+![Image](accountweb.png)
+
 The tutorial for resetting the password of the account is in this **Doc**: 
 
 ***You must read and follow the directions in the tutorial below carefully***
