@@ -42,7 +42,7 @@ After Installation, click on this post to set the default terminal to `git bash`
 
 For **Mac**, bash should be the default shell. If not, open the terminal, then goes to settings. In the General section, you should be able to change your shell.
 
-Next, open a terminal in VScode to use `ssh`. (You can use Ctrl + ` or use the Terminal on the menu then click on New Terminal.) Then, you will be able to input your command with the `xxx` replaced by the letters shown in your course-specific account.
+Next, open a terminal in VScode to use `ssh`. (You can use Ctrl + ` or use the Terminal on the menu then click on New Terminal.) Then, you will be able to input your command with the **xxx** replaced by the letters shown in your course-specific account.
 
 `$ ssh cs15lwi23xxx@ieng6.ucsd.edu`
 
