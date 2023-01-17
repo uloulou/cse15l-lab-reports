@@ -38,6 +38,10 @@ For **Windows**, you would need to install `git` which has some useful tools tha
 
 After Installation, click on this post to set the default terminal to `git bash` in VS Code:
 
-[Using Bash on Windows in VScod](https://stackoverflow.com/a/50527994)
+[Using Bash on Windows in VScode](https://stackoverflow.com/a/50527994)
 
 For **Mac**, bash should be the default shell. If not, open the terminal, then goes to settings. In the General section, you should be able to change your shell.
+
+Next, open a terminal in VScode to use `ssh`. (You can use Ctrl + ` or use the Terminal on the menu then click on New Terminal.) Then, you will be able to input your command with the `xxx` replaced by the letters shown in your course-specific account.
+
+`$ ssh cse15lwi23**xxx**@ieng6.ucsd.edu`
