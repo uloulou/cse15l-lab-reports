@@ -27,4 +27,4 @@ Visit the Visual Studio Code website https://code.visualstudio.com/, and there w
 
 After Installation, you should be able to open the vs code and see a window like this. (It might have different colors or menu bar based on which system and settings you are using.)
 
-![Image](VS code installed.png)
+![Image](VScode.png)
