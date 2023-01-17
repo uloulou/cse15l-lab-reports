@@ -24,3 +24,5 @@ At this point, you are free to start working on the following sections.
 ## 1. Visual Studio Code Installation
 
 (If you are using the computers in the lab, you can simply open VS code that is installed inside. You are allowed to work on the lab computers for this course, set-up for personal laptops is not required.)
+
+Visit the Visual Studio Code website https://code.visualstudio.com/, and there will be instructions on how to download and install it on your computer. *Please be mindful that there are versions for all the major operating systems (e.g macOS and Windows)*. So, choose the one that matches your computer.
