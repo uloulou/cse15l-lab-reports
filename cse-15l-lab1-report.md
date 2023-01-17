@@ -3,7 +3,7 @@ This is a simple tutorial that helps you to prepare for this course. There are t
 
           1. Visual Studio Code Installation
           2. Remotely Connecting
-          3. Test out the commands
+          3. Test out the Commands
 
 ## *IMPORTANT: Setting up your CSE 15L Account
 
@@ -63,4 +63,4 @@ Password:`
 
 Now your terminal is connected to a computer in CSE basement and the commands you run will also be on that computer.
 
-## 3. Test Out Some Commands
+## 3. Test out the Commands
