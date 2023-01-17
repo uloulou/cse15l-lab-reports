@@ -44,4 +44,4 @@ For **Mac**, bash should be the default shell. If not, open the terminal, then g
 
 Next, open a terminal in VScode to use `ssh`. (You can use Ctrl + ` or use the Terminal on the menu then click on New Terminal.) Then, you will be able to input your command with the `xxx` replaced by the letters shown in your course-specific account.
 
-`$ ssh cse15lwi23**xxx**@ieng6.ucsd.edu`
+`$ ssh cse15lwi23xxx@ieng6.ucsd.edu`
