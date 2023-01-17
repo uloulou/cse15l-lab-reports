@@ -39,4 +39,6 @@ For Windows, you would need to install `git` which has some useful tools that yo
 
 [Git for Windows](https://gitforwindows.org/)
 
-After Installation, 
+After Installation, click onto this post to set the default terminal to `git bash` in VS Code:
+
+[Using Bash on Windows in VScod](https://stackoverflow.com/a/50527994)
