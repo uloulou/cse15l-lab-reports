@@ -4,13 +4,16 @@
 ![Image](cd.png)
 The working directory was home when the command was run. `cd` with no argument will brings the directory back to home. Thus, the output is not an error.
 3. Using `cd` with a path to a ***directory***
-4. Using `cd` with a path to a ***file***
+![Image](cdlecture1.png)
+5. Using `cd` with a path to a ***file***
+![Image](cdfile.png)
 
 ## Command `ls`
 1. Using `ls` ***without*** an argument
 ![Image](ls.png)
 3. Using `ls` with a path to a ***directory***
-4. Using `ls` with a path to a ***file***
+![Image](lslecture1.png)
+5. Using `ls` with a path to a ***file***
 
 ## Command `cat`
 1. Using `cat` ***without*** an argument
