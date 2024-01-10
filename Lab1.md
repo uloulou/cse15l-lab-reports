@@ -2,7 +2,7 @@
 ## Command `cd`
 1. Using `cd` ***without*** an argument
 2. Using `cd` with a path to a ***directory***
-3. Using `cd` with a path to a *file*
+3. Using `cd` with a path to a ***file***
 
 ## Command `ls`
 1. Using `ls` ***without*** an argument
