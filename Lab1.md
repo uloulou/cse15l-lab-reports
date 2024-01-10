@@ -20,7 +20,9 @@ The working directory was home when the command was run. `cd` with no argument w
 1. Using `cat` ***without*** an argument
 ![Image](cat.png)
 2. Using `cat` with a path to a ***directory***
+![Image](catlecture1.png)
 3. Using `cat` with a path to a ***file***
+![Image](catfile.png)
 
 * A screenshot or Markdown code block showing the command and its output
 * What the working directory was when the command was run
