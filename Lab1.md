@@ -2,6 +2,7 @@
 ## Command `cd`
 1. Using `cd` ***without*** an argument
 ![Image](cd.png)
+The working directory was home when the command was run. `cd` with no argument will brings the directory back to home. Thus, the output is not an error.
 3. Using `cd` with a path to a ***directory***
 4. Using `cd` with a path to a ***file***
 
