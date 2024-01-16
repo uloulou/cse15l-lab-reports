@@ -24,12 +24,12 @@ The working directory was `/home` when the command was run. `ls` with no argumen
 2. Using `ls` with a path to a ***directory***
 ![Image](lslecture1.png)
 
-The working directory was `/home` when the command was run. `ls` with no argument will show the file and folder names in the current working directory, which is **lecture1** in the `/home` directory in this case. The output is not an error.
+The working directory was `/home` when the command was run. `ls` with a path to th directory `lecture1` will show the file and folder names - the folder **messages** and files **Hello.class**, **Hello.java**, and **README** - in the current working directory `lecture1`. The output is not an error.
 
 3. Using `ls` with a path to a ***file***
 ![Image](lsfile.png)
 
-
+The working directory was `/home` when the command was run. `ls` with a path to to a file, which is `lecture1/messages/de-txt` will show the path with the file name - **lecture1/messages/de-txt** - in the current working directory `lecture1/messages`. The output is not an error.
 
 ## Command `cat`
 1. Using `cat` ***without*** an argument
