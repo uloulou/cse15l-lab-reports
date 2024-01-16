@@ -2,7 +2,7 @@
 ## Command `cd`
 1. Using `cd` ***without*** an argument
 ![Image](cd.png)
-The working directory was `/home` when the command was run. `cd` with no argument will brings the directory back to home. Thus, the output is not an error.
+> The working directory was `/home` when the command was run. `cd` with no argument will brings the directory back to home. Thus, the output is not an error.
 2. Using `cd` with a path to a ***directory***
 ![Image](cdlecture1.png)
 The working directory was `/home` when the command was run. `cd` with a path to a directory will change the directory to `lecture1`. Thus, the output is not an error.
@@ -13,9 +13,10 @@ The working directory was `lecture1` when the command was run. `cd` with a path 
 ## Command `ls`
 1. Using `ls` ***without*** an argument
 ![Image](ls.png)
-2. Using `ls` with a path to a ***directory***
+The working directory was `/
+3. Using `ls` with a path to a ***directory***
 ![Image](lslecture1.png)
-3. Using `ls` with a path to a ***file***
+4. Using `ls` with a path to a ***file***
 ![Image](lsfile.png)
 
 ## Command `cat`
