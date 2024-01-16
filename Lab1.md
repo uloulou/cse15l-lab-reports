@@ -29,7 +29,7 @@ The working directory was **`home`** when the command was run. `ls` with a path 
 3. Using `ls` with a path to a ***file***
 ![Image](lsfile.png)
 
-The working directory was **`home`** when the command was run. `ls` with a path to to a file, which is **`lecture1/messages/de.txt`** will show the path with the file name - **lecture1/messages/de.txt** - in the current working directory **`lecture1/messages`**. The output is not an error.
+The working directory was **`home`** when the command was run. `ls` with a path to to a file, which is **`lecture1/messages/de.txt`** will show the path with the file name - **`lecture1/messages/de.txt`** - in the current working directory **`lecture1/messages`**. The output is not an error.
 
 ## Command `cat`
 1. Using `cat` ***without*** an argument
