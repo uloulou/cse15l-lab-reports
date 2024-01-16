@@ -46,8 +46,3 @@ The working directory was **`home`** when the command was run. `cat`is used for 
 ![Image](catfile.png)
 
 The working directory was **`home`** when the command was run. `cat`is used for printing the contents of the files in the given paths and **`lecture1/messages/de.txt`** is a path to file. `cat` with a path to **`lecture1/messages/de.txt`** will print the content inside the file **`de.txt`**, which is ***Hallo Welt!***. Thus, the output is not an error.
-
-* A screenshot or Markdown code block showing the command and its output
-* What the working directory was when the command was run
-* A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-* Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
