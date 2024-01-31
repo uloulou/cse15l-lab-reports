@@ -18,3 +18,4 @@ The absolute path to the public key for your SSH key for logging into ieng6 (thi
 A terminal interaction where you log into your ieng6 account without being asked for a password.
 
 ## Part 3
+As someone with a weak fundation in coding, the knowledge about urls, servers, and local machines are all brand new for me. I learnt how to link to a server and build a server that could work in week 2 and week 3. I also learnt hwo to implement different functions/methods such as add and serach. I also learn what components make the website link. In addition, I learn what scp and mkdir is. Last thing I learnt is to set up ssh key for easier access to the server which saves a lot of time.
