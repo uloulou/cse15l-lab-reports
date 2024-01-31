@@ -67,6 +67,10 @@ class ChatServer {
 }
 ```
 
+![Image](Images/text1.png)
+
+![Image](Images/Text2.png)
+
 ## Part 2
 
 The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
