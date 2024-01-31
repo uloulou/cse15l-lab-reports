@@ -17,7 +17,7 @@ Working Directory when running the command:`.ssh`
 
 command line : `ls ~\.ssh/id_rsa`
 
-The command lines are inside the red rectangle.
+***The command lines are inside the red rectangle.***
 
 ![Image](Images/Private.png)
 
@@ -27,7 +27,7 @@ Working Directory when running the command:`.ssh`
 
 command line : `ls ~\.ssh/id_rsa.pub`
 
-The command lines are inside the red rectangle.
+***The command lines are inside the red rectangle.***
 
 ![Image](Images/Public.png)
 
@@ -37,9 +37,9 @@ Working Directory when running the command:`.ssh`
 
 command line : `ssh ulou@ieng6-201.ucsd.edu`
 
-The command lines are inside the red rectangle.
-
 The screenshot shows it did not require me to enter my password when I log into my ieng6 account.
+
+***The command lines are inside the red rectangle.***
 
 ![Image](Images/login.png)
 
