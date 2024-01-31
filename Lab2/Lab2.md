@@ -9,7 +9,7 @@ What are the relevant arguments to those methods, and the values of any relevant
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 By values, we mean specific Strings, ints, URIs, and so on. "abc" is a value, 456 is a value, new URI("http://...") is a value, and so on.)
 
-# code block
+```
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -65,6 +65,11 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
+```
+
+![Image](Images/text1.png)
+
+![Image](Images/Text2.png)
 
 ## Part 2
 
