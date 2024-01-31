@@ -40,7 +40,7 @@ The working directory was **`home`** when the command was run. `cat`is used for 
 2. Using `cat` with a path to a ***directory***
 ![Image](catlecture1.png)
 
-The working directory was **`home`** when the command was run. `cat`is used for printing the contents of the files in the given paths and **`lecture1`** is a directory, not files. `cat` with a path to **`lecture1`** will print a statement saying **`lecture1`** is a directory. No contents of the files are printed. Thus, the output is not an error.
+The working directory was **`home`** when the command was run. `cat`is used for printing the contents of the files in the given paths and **`lecture1`** is a directory, not files. Thus, the output is an error even though `cat` with a path to **`lecture1`** will print a statement saying **`lecture1`** is a directory. As `cat` expect its argument to be files, in this case, no contents of the files are printed.
 
 3. Using `cat` with a path to a ***file***
 ![Image](catfile.png)
