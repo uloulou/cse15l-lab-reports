@@ -10,7 +10,6 @@ How do the values of any relevant fields of the class change from this specific 
 By values, we mean specific Strings, ints, URIs, and so on. "abc" is a value, 456 is a value, new URI("http://...") is a value, and so on.)
 
 ```
-# code block
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
