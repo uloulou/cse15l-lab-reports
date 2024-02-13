@@ -89,6 +89,12 @@ command line : `ls ~\.ssh/id_rsa.pub`
 
 ![Image](Images/Public.png)
 
+This is a photo showing the path of the key in my local machine.
+
+![Image](Images/iengpublic.png)
+
+This is the photo showing the path of the public key in `ieng6`
+
 A terminal interaction where you log into your ieng6 account without being asked for a password.
 
 Working Directory when running the command:`.ssh`
