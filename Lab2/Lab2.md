@@ -61,11 +61,11 @@ class ChatServer {
 
 ![Image](Images/text1.png)
 
-I called the `handleRequest(URI url)` and `Server.start` method. Relevant arguments are the `URI url`, `port` and `Handler()`. There is no change from this specific request for `Server.start` method. Yet the listmessage in `handleRequest(URI url)` will add new messages to it.
+I called the `handleRequest(URI url)` and `main(String[] args)` method in ChatServer.java and `start(int port, URLHandler handler)` and `handle(final HttpExchange exchange)` in Server.java. Relevant arguments are the `URI url`, `port` and `Handler()`. There is no change from this specific request for `Server.start` method. Yet the listmessage in `handleRequest(URI url)` will add new messages to it.
 
 ![Image](Images/Text2.png)
 
-I called the `handleRequest(URI url)` and `Server.start` method. Relevant arguments are the `URI url`, `port` and `Handler()`. There is no change from this specific request for `Server.start` method. Yet the listmessage in `handleRequest(URI url)` will add new messages to it.
+I called the `handleRequest(URI url)` and `main(String[] args)` method in ChatServer.java and `start(int port, URLHandler handler)` and `handle(final HttpExchange exchange)` in Server.java. Relevant arguments are the `URI url`, `port` and `Handler()`. There is no change from this specific request for `Server.start` method. Yet the listmessage in `handleRequest(URI url)` will add new messages to it.
 
 ## Part 2
 
