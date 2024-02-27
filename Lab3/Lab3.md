@@ -25,7 +25,7 @@
 
 JUnit test code:
 
-![Image](Images/bugcode.png)
+![Image](Images/Bugcode.png)
 
 Output of Running the Tests:
 
