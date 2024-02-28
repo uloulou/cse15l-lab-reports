@@ -67,6 +67,8 @@ static int[] reversed(int[] arr) {
 
 ## Part 2 - Researching Commands
 
+* I find all the commands through `man grep` on VSCode. *
+
 **1. grep -i**
 
 It finds the files contains the string despite the case as it makes it case insensitive. This is great for saving time in pressing caps locks to finding the exact contents.
@@ -157,7 +159,7 @@ It shows names of files that does not containing selected lines, which is great 
 It prints lines befor and after each match depending on what I put in num. It is helpful when I want a recap for the files with weird names that contains the word I want without clicking into each of them.
 
 ```
-- NADIAde-MacBook-Pro:docsearch nadialou$ grep -C 1 "banana" technical/biomed/*.txt 
+* NADIAde-MacBook-Pro:docsearch nadialou$ grep -C 1 "banana" technical/biomed/*.txt 
   technical/biomed/1471-2105-3-6.txt-          the Poet" (14), respectively, "I am a poet. I am very
   technical/biomed/1471-2105-3-6.txt:          fond of bananas." and "I am of very fond bananas. Am I a
   technical/biomed/1471-2105-3-6.txt-          poet?". The procedure includes four steps:
@@ -172,7 +174,7 @@ It prints lines befor and after each match depending on what I put in num. It is
 ```
 
 ```
-- NADIAde-MacBook-Pro:docsearch nadialou$ grep -C 1 "government" technical/government/Alcohol_Problems/*.txt
+* NADIAde-MacBook-Pro:docsearch nadialou$ grep -C 1 "government" technical/government/Alcohol_Problems/*.txt
   technical/government/Alcohol_Problems/DraftRecom-PDF.txt-Longabaugh wondered whether the intended consumers of the
   technical/government/Alcohol_Problems/DraftRecom-PDF.txt:document would include government officials, researchers,
   technical/government/Alcohol_Problems/DraftRecom-PDF.txt-practitioners, and academicians.
@@ -182,12 +184,31 @@ It prints lines befor and after each match depending on what I put in num. It is
   technical/government/Alcohol_Problems/Session3-PDF.txt-agencies and professional organizations can promote adoption and
 ```
 
-**4. grep -H**
+**4. grep -n**
 
-It prints filename headers with output lines such that it will be much clearer to which output is from which file where there are multiple.
-
-```
-```
+It prints line number in the file containing the thing I want to search along with the output line. It could help with locating the documents and specific words quicker when it has a lot of lines.
 
 ```
+* NADIAde-MacBook-Pro:docsearch nadialou$ grep -n "chocolate" technical/plos/*.txt
+  technical/plos/journal.pbio.0020012.txt:8:        designer chocolate with a clear conscience. The demographer sticks to vitamin supplements,
+  technical/plos/journal.pbio.0020012.txt:102:        personal anti-ageing regime involves taking “a dose of anti-oxidant chocolate with a good
+  technical/plos/journal.pbio.0020213.txt:17:        devastate the lucrative soybean, and rot cacao, threatening the world's supply of chocolate
+```
+
+```
+* NADIAde-MacBook-Pro:docsearch nadialou$ grep -n "Pentium" technical/biomed/*.txt
+  technical/biomed/1471-2105-2-9.txt:426:        (Pentium III, 300 MHz, 300 Mb RAM) running Windows 2000.
+  technical/biomed/1471-2105-3-14.txt:702:        ten 1.26 GHz Pentium III processors are being used).
+  technical/biomed/1471-2105-3-14.txt:792:          three weeks, performed on eight Pentium III 800 Mhz
+  technical/biomed/1471-2105-3-28.txt:728:        (e.g. Pentium Bit Scan Reverse (BSR) instruction [ 6 ] ).
+  technical/biomed/1471-2105-3-28.txt:848:          environment http://www.cygwin.com/on a 1 GHz Pentium
+  technical/biomed/1471-2202-2-20.txt:699:            Hartland, WI, USA) and analyzed on an IBM Pentium II
+  technical/biomed/1472-6807-2-3.txt:523:          MHz Pentium III processor and for a cluster of 64 such
+  technical/biomed/1475-925X-2-12.txt:268:          (Comsol, Burlington MA, USA) on a 1.8 GHz Intel Pentium
+  technical/biomed/gb-2001-2-7-research0025.txt:899:          MHz Pentium III Xeon processors and 2 GB of RAM on each
+  technical/biomed/gb-2002-3-12-research0077.txt:649:          150 sequences of less than 400 amino acids, on a Pentium
+  technical/biomed/gb-2002-3-12-research0077.txt:709:          SGI MIPS, Pentium Pro (Windows and Linux) and Macintosh
+  technical/biomed/gb-2002-3-12-research0081.txt:388:          standard IA32 architecture nodes, each with dual Pentium
+  technical/biomed/gb-2002-3-12-research0081.txt:390:          addition, a single Pentium III-based master node was used
+  technical/biomed/rr196.txt:145:          developed in our laboratory. A Pentium computer with a
 ```
