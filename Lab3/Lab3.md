@@ -67,7 +67,7 @@ static int[] reversed(int[] arr) {
 
 ## Part 2 - Researching Commands
 
-* I find all the commands through `man grep` on VSCode. *
+*I find all the commands through `man grep` on VSCode.*
 
 **1. grep -i**
 
