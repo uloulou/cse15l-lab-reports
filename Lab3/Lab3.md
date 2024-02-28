@@ -66,3 +66,13 @@ static int[] reversed(int[] arr) {
 - In the After code, I replaced the line `arr[i] = newArray[arr.length - i - 1];` with `newArray[i] = arr[arr.length - i - 1];` and also make it `return newArray;` instead of `return arr;`. Thus, when the for loop runs, all the empty elements inside the newly made newArray will be updated with the elements inside arr in reverse order. Furthremore, as we return to newArray, it will result it a reverse order of the input arr when `reversed(int[] arr)` is called.
 
 ## Part 2 - Researching Commands
+
+**1. grep -i**
+It find the files contains the string despite the case as it makes it case insensitive. This is great for finding the files that contain 
+
+**2. grep -L**
+It prints names of files that does not containing selected lines, which is great for data cleaning.
+
+**3. grep -i**
+
+**4. grep -i**
