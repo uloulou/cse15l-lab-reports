@@ -68,11 +68,78 @@ static int[] reversed(int[] arr) {
 ## Part 2 - Researching Commands
 
 **1. grep -i**
-It find the files contains the string despite the case as it makes it case insensitive. This is great for finding the files that contain 
+It finds the files contains the string despite the case as it makes it case insensitive. This is great for saving time in pressing caps locks to finding the exact contents.
+
+```
+* NADIAde-MacBook-Pro:docsearch nadialou$ grep -i "APPLE" technical/biomed/*.txt
+  technical/biomed/1468-6708-3-10.txt:        questions requiring large sample sizes and to grapple with
+  technical/biomed/1471-2105-3-12.txt:            This problem appears to lie in the JAVA applet included
+  technical/biomed/1471-2105-3-12.txt:            Moving an Apple-supplied "JAVA Accelerator for PowerPC"
+  technical/biomed/1471-2105-3-12.txt:            applet-generated graph may be problematic due to an
+  technical/biomed/1471-2105-3-12.txt:            applet incompatibility; capturing the graph as a
+  technical/biomed/1471-2121-2-11.txt:          Apple Power Mac 9600.
+  technical/biomed/1471-2121-2-18.txt:          camera and an Apple Macintosh computer for capturing
+  technical/biomed/1471-2202-2-5.txt:            http://rsb.info.nih.gov/nih-imageand an Apple Macintosh
+  technical/biomed/1471-2202-2-5.txt:            computer http://www.apple.com. If the criteria for
+  technical/biomed/1471-2458-3-11.txt:        fresh-pressed apple cider [ 28 ] . Other foodborne
+  technical/biomed/1472-6793-2-1.txt:            accelerated Power Mac 6100/66 computer (Apple Computer,
+  technical/biomed/1472-6793-2-1.txt:            7500/100 (Apple Computer, Cupertino, Ca). The system
+  technical/biomed/1472-6882-1-10.txt:          antibiotics and the ananase enzyme (from the pineapple 
+  technical/biomed/gb-2002-3-10-research0053.txt:          in pineapple (~70% to 
+  technical/biomed/gb-2002-3-12-research0077.txt:          the JAVA applet WebMol [ 35]. In this setting, the color
+  technical/biomed/gb-2003-4-8-r51.txt:            visualized using QuickPDB, a Java applet developed by
+```
+
+```
+* NADIAde-MacBook-Pro:docsearch nadialou$ grep -i "bac" technical/government/Alcohol_Problems/*.txt
+  technical/government/Alcohol_Problems/DraftRecom-PDF.txt:After participants had given extensive feedback on specific
+  technical/government/Alcohol_Problems/Session2-PDF.txt:alcohol concentration (BAC), coupled with our clinical
+  technical/government/Alcohol_Problems/Session2-PDF.txt:course, BAC can help identify acute intoxication. The alcohol
+  technical/government/Alcohol_Problems/Session2-PDF.txt:Many injured ED patients are screened with a BAC, which can help
+  technical/government/Alcohol_Problems/Session2-PDF.txt:indicate an alcohol problem. While a very high BAC in an unimpaired
+  technical/government/Alcohol_Problems/Session2-PDF.txt:patient can be a specific screen for dependence,42 BAC is an
+  technical/government/Alcohol_Problems/Session2-PDF.txt:disorder.43 In an ED study, BAC was a poor screen for alcohol abuse
+  technical/government/Alcohol_Problems/Session2-PDF.txt:level equivalent to a BAC greater than 0.10 g/dl in an injured
+  technical/government/Alcohol_Problems/Session2-PDF.txt:center, BAC had a sensitivity of 63% for an alcohol disorder.5
+  technical/government/Alcohol_Problems/Session2-PDF.txt:problematic con-sumption.45-50 Biochemical tests other than BAC may
+  technical/government/Alcohol_Problems/Session2-PDF.txt:immediate feedback may help make the transition from screening to
+  technical/government/Alcohol_Problems/Session2-PDF.txt:computer feedback, need to be explored.
+  technical/government/Alcohol_Problems/Session2-PDF.txt:questions, and checking BAC at the beginning or end of the
+  technical/government/Alcohol_Problems/Session2-PDF.txt:all emergency patients with CAGE and then provide feedback. Only
+  technical/government/Alcohol_Problems/Session2-PDF.txt:scores; of those, only 41% were provided feedback. Even with
+  technical/government/Alcohol_Problems/Session2-PDF.txt:feedback, only 12% accepted follow-up. Of 4,663 patients, only 13
+  technical/government/Alcohol_Problems/Session3-PDF.txt:(BAC) determinations under-estimate the extent of alcohol problems
+  technical/government/Alcohol_Problems/Session3-PDF.txt:who were injured in vehicular crashes and had a positive BAC were
+  technical/government/Alcohol_Problems/Session3-PDF.txt:combination of blood alcohol concentration (BAC), serum gamma
+  technical/government/Alcohol_Problems/Session3-PDF.txt:not significantly different. Bachelor's or master's level staff
+  technical/government/Alcohol_Problems/Session3-PDF.txt:missed any rebound back to baseline at later time points, and the
+  technical/government/Alcohol_Problems/Session3-PDF.txt:Baltimore is using a feedback letter and two or more follow-up
+  technical/government/Alcohol_Problems/Session3-PDF.txt:low BAC testing rates for intoxicated drivers by emergency
+  technical/government/Alcohol_Problems/Session3-PDF.txt:many clinicians do not routinely obtain a BAC test because of a
+  technical/government/Alcohol_Problems/Session3-PDF.txt:◆Personalized Feedback (New)
+  technical/government/Alcohol_Problems/Session3-PDF.txt:the subject of problem drinking, providing feedback, and assessing
+  technical/government/Alcohol_Problems/Session3-PDF.txt:in the acronym FRAMES: feedback, responsibility, advice, menu of
+  technical/government/Alcohol_Problems/Session3-PDF.txt:Brief alcohol interventions have generally included feedback by
+  technical/government/Alcohol_Problems/Session3-PDF.txt:provider feedback and advice to the patient have had mixed results
+  technical/government/Alcohol_Problems/Session3-PDF.txt:intervention materials and feedback may help to fill gaps in the
+  technical/government/Alcohol_Problems/Session3-PDF.txt:to provide targeted, individualized feedback to patients considered
+  technical/government/Alcohol_Problems/Session3-PDF.txt:11. Buerhaus PI, Staiger DO, Auerbach DI. Implications of an
+  technical/government/Alcohol_Problems/Session3-PDF.txt:their new study with hazardous drinkers who had a positive BAC at
+  technical/government/Alcohol_Problems/Session3-PDF.txt:discharge. In his work, they are using a feedback letter and phone
+  technical/government/Alcohol_Problems/Session3-PDF.txt:of consent. Patients with BACs of 0.10 and 0.08 g/dl had impaired
+  technical/government/Alcohol_Problems/Session3-PDF.txt:estimate their BAC is below 0.08 g/dl.
+  technical/government/Alcohol_Problems/Session3-PDF.txt:incorporated into research and more strategies that piggy-back on
+  technical/government/Alcohol_Problems/Session4-PDF.txt:subjectively deter-mine if patients were intoxicated (BAC > 0.10
+  technical/government/Alcohol_Problems/Session4-PDF.txt:Approaches: Effective Alternatives. Boston: Allyn & Bacon;
+  technical/government/Alcohol_Problems/Session4-PDF.txt:limit of a driver's BAC or extending DWI laws to cover snowmobile
+  technical/government/Alcohol_Problems/Session4-PDF.txt:Peter Rostenberg agreed that forsaking the BAC prevents good
+```
 
 **2. grep -L**
-It prints names of files that does not containing selected lines, which is great for data cleaning.
+It shows names of files that does not containing selected lines, which is great for data cleaning.
 
-**3. grep -i**
+**3. grep -A num**
+It prints lines of trailing context after each match depending on what I put in num. It is helpful when I want a recap for the files with weird names without clicking into each of them.
 
-**4. grep -i**
+**4. grep -H**
+It prints filename headers with output lines such that it will be much clearer to which output is from which file where there are multiple.
