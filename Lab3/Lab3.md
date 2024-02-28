@@ -68,6 +68,7 @@ static int[] reversed(int[] arr) {
 ## Part 2 - Researching Commands
 
 **1. grep -i**
+
 It finds the files contains the string despite the case as it makes it case insensitive. This is great for saving time in pressing caps locks to finding the exact contents.
 
 ```
@@ -136,6 +137,7 @@ It finds the files contains the string despite the case as it makes it case inse
 ```
 
 **2. grep -L**
+
 It shows names of files that does not containing selected lines, which is great for data cleaning.
 
 ```
@@ -151,10 +153,11 @@ It shows names of files that does not containing selected lines, which is great 
 ```
 
 **3. grep -C num**
+
 It prints lines befor and after each match depending on what I put in num. It is helpful when I want a recap for the files with weird names that contains the word I want without clicking into each of them.
 
 ```
-* NADIAde-MacBook-Pro:docsearch nadialou$ grep -C 1 "banana" technical/biomed/*.txt 
+- NADIAde-MacBook-Pro:docsearch nadialou$ grep -C 1 "banana" technical/biomed/*.txt 
   technical/biomed/1471-2105-3-6.txt-          the Poet" (14), respectively, "I am a poet. I am very
   technical/biomed/1471-2105-3-6.txt:          fond of bananas." and "I am of very fond bananas. Am I a
   technical/biomed/1471-2105-3-6.txt-          poet?". The procedure includes four steps:
@@ -169,7 +172,7 @@ It prints lines befor and after each match depending on what I put in num. It is
 ```
 
 ```
-* NADIAde-MacBook-Pro:docsearch nadialou$ grep -C 1 "government" technical/government/Alcohol_Problems/*.txt
+- NADIAde-MacBook-Pro:docsearch nadialou$ grep -C 1 "government" technical/government/Alcohol_Problems/*.txt
   technical/government/Alcohol_Problems/DraftRecom-PDF.txt-Longabaugh wondered whether the intended consumers of the
   technical/government/Alcohol_Problems/DraftRecom-PDF.txt:document would include government officials, researchers,
   technical/government/Alcohol_Problems/DraftRecom-PDF.txt-practitioners, and academicians.
@@ -180,6 +183,7 @@ It prints lines befor and after each match depending on what I put in num. It is
 ```
 
 **4. grep -H**
+
 It prints filename headers with output lines such that it will be much clearer to which output is from which file where there are multiple.
 
 ```
