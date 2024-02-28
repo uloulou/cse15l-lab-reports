@@ -138,8 +138,52 @@ It finds the files contains the string despite the case as it makes it case inse
 **2. grep -L**
 It shows names of files that does not containing selected lines, which is great for data cleaning.
 
-**3. grep -A num**
-It prints lines of trailing context after each match depending on what I put in num. It is helpful when I want a recap for the files with weird names without clicking into each of them.
+```
+* NADIAde-MacBook-Pro:docsearch nadialou$ grep -L "opportunity" technical/government/Alcohol_Problems/*.txt
+  technical/government/Alcohol_Problems/Session2-PDF.txt
+```
+
+```
+* NADIAde-MacBook-Pro:docsearch nadialou$ grep -L "fire" technical/911report/*.txt
+  technical/911report/chapter-12.txt
+  technical/911report/chapter-8.txt
+  technical/911report/preface.txt
+```
+
+**3. grep -C num**
+It prints lines befor and after each match depending on what I put in num. It is helpful when I want a recap for the files with weird names that contains the word I want without clicking into each of them.
+
+```
+* NADIAde-MacBook-Pro:docsearch nadialou$ grep -C 1 "banana" technical/biomed/*.txt 
+  technical/biomed/1471-2105-3-6.txt-          the Poet" (14), respectively, "I am a poet. I am very
+  technical/biomed/1471-2105-3-6.txt:          fond of bananas." and "I am of very fond bananas. Am I a
+  technical/biomed/1471-2105-3-6.txt-          poet?". The procedure includes four steps:
+  --
+  technical/biomed/1471-2105-3-6.txt-          thunit of the first stanza, "I am a poet. I am very fond
+  technical/biomed/1471-2105-3-6.txt:          of bananas.", has USM coordinates 
+  technical/biomed/1471-2105-3-6.txt-          USM 
+  --
+  technical/biomed/1471-2105-3-6.txt-          1bwith solid lining of the segment " 
+  technical/biomed/1471-2105-3-6.txt:          bananas ". The matching of the two
+  technical/biomed/1471-2105-3-6.txt-          segments of the second stanza (light) to the similar
+```
+
+```
+* NADIAde-MacBook-Pro:docsearch nadialou$ grep -C 1 "government" technical/government/Alcohol_Problems/*.txt
+  technical/government/Alcohol_Problems/DraftRecom-PDF.txt-Longabaugh wondered whether the intended consumers of the
+  technical/government/Alcohol_Problems/DraftRecom-PDF.txt:document would include government officials, researchers,
+  technical/government/Alcohol_Problems/DraftRecom-PDF.txt-practitioners, and academicians.
+  --
+  technical/government/Alcohol_Problems/Session3-PDF.txt-been published that deal with alcohol dependence and abuse and
+  technical/government/Alcohol_Problems/Session3-PDF.txt:emergency medicine. The challenge now is to discover how government
+  technical/government/Alcohol_Problems/Session3-PDF.txt-agencies and professional organizations can promote adoption and
+```
 
 **4. grep -H**
 It prints filename headers with output lines such that it will be much clearer to which output is from which file where there are multiple.
+
+```
+```
+
+```
+```
