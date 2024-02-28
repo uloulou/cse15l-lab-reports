@@ -16,8 +16,8 @@
 ```
    @Test
    public void testReversed2() {
-     int[] input2 = {0};
-     assertArrayEquals(new int[]{0}, ArrayExamples.reversed(input2));
+     int[] input2 = {0,0};
+     assertArrayEquals(new int[]{0,0}, ArrayExamples.reversed(input2));
    }
 ```
 
