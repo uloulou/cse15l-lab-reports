@@ -59,7 +59,7 @@ static int[] reversed(int[] arr) {
 
 ```
 
-## Why the fix addresses the issue?
+**Why the fix addresses the issue?**
 
 - In the Before code, even though a new integer array newArray is created, the line `arr[i] = newArray[arr.length - i - 1];` in the for loop is updating everything element in the arr with elements in the newArray (which is empty as it is newly created) and return arr which causes all the elements in the arr to be 0. 
 
