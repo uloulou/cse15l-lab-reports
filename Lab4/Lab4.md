@@ -41,7 +41,7 @@ Before I run the test, since I cloned the file inside ieng6, I need to check wha
 
 ```
 Keys Pressed:
-`vim L`<Tab>`.java`<Enter> --> `vim ListExample.java`
+`vim L`<Tab>`.java`<Enter> --> `vim ListExamples.java`
 `44`<Shift>`G`
 `i`
 <right><right><right><right><right><right>
@@ -50,7 +50,7 @@ Keys Pressed:
 `esc`
 `:wq!`<Enter>
 
-Since from the previous test run, I know the error is in line 44 of ListExample.java and line 19 of ListExampleTesters.java. Thus, I used `vim L`<Tab> to get the autofill for `vim ListExample` and I continued type `.java` to get the full command `vim ListExample.java` to open the file. Then I used `44`<Shift>`G`to jump to the line where the error occurs. I found out the `index1` should be `index2`. So, I pressed `i` to start insert mode. I pressed <right><right><right><right><right><right> 6 right to get to the space in between `index1` and `+=`. Then I pressed `delete` to delete `1` and pressed `2` to insert `2` at where `1` was originally. To close insert mode, I pressed `esc` and I pressed `:wq!`<Enter> to save my edits and exit vim.
+Since from the previous test run, I know the error is in line 44 of ListExamples.java and line 19 of ListExamplesTesters.java. Thus, I used `vim L`<Tab> to get the autofill for `vim ListExample` and I continued type `.java` to get the full command `vim ListExamples.java` to open the file. Then I used `44`<Shift>`G`to jump to the line where the error occurs. I found out the `index1` should be `index2`. So, I pressed `i` to start insert mode. I pressed <right><right><right><right><right><right> 6 right to get to the space in between `index1` and `+=`. Then I pressed `delete` to delete `1` and pressed `2` to insert `2` at where `1` was originally. To close insert mode, I pressed `esc` and I pressed `:wq!`<Enter> to save my edits and exit vim.
 ```
 
 ![Image](Image/vim.png)
@@ -62,7 +62,7 @@ Since from the previous test run, I know the error is in line 44 of ListExample.
 Keys Pressed:
 <up><up><Enter>
 
-Since from the previous test run, I know the error is in line 44 of ListExample.java and line 19 of ListExampleTesters.java. Now the error in line 44 of ListExample.java is fixed and thus it should run properly for line 19 of ListExampleTesters.java too. To check if it now succeed, I pressed <up><up><Enter> to get `bash test.sh` as it is 2 up in the history.
+Since from the previous test run, I know the error is in line 44 of ListExamples.java and line 19 of ListExamplesTesters.java. Now the error in line 44 of ListExamples.java is fixed and thus it should run properly for line 19 of ListExamplesTesters.java too. To check if it now succeed, I pressed <up><up><Enter> to get `bash test.sh` as it is 2 up in the history.
 ```
 
 ![Image](Image/done.png)
@@ -71,9 +71,11 @@ Since from the previous test run, I know the error is in line 44 of ListExample.
 
 ```
 Keys Pressed:
-<up><up><Enter>
+`git add L`<Tab>`.java`<Enter>
+`git commit -m "change index1 to 2"`
+`git push origin main`
 
-Since from the previous test run, I know the error is in line 44 of ListExample.java and line 19 of ListExampleTesters.java. Now the error in line 44 of ListExample.java is fixed and thus it should run properly for line 19 of ListExampleTesters.java too. To check if it now succeed, I pressed <up><up><Enter> to get `bash test.sh` as it is 2 up in the history.
+I typed `git add L`<Tab> to get the autofill for `git add ListExamples` and I continued type `.java` to get the full command `git add ListExamples.java`. Then I typed `git commit -m "change index1 to 2"` to commit change with a message "change index1 to 2". Lastly, I push it to origin through typing `git push origin main`.
 ```
 
 ![Image](Image/push.png)
