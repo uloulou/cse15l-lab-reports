@@ -58,3 +58,9 @@ static int[] reversed(int[] arr) {
 }
 
 ```
+
+## Why the fix addresses the issue?
+
+- In the Before code, even though a new integer array newArray is created, the line `arr[i] = newArray[arr.length - i - 1];` in the for loop is updating everything element in the arr with elements in the newArray (which is empty as it is newly created) and return arr which causes all the elements in the arr to be 0. 
+
+- In the After code, I replaced the line `arr[i] = newArray[arr.length - i - 1];` with `newArray[i] = arr[arr.length - i - 1];` and also make it `return newArray;` instead of `return arr;`. Thus, when the for loop runs, all the empty elements inside the newly made newArray will be updated with the elements inside arr in reverse order. Furthremore, as we return to newArray, it will result it a reverse order of the input arr when `reversed(int[] arr)` is called.
