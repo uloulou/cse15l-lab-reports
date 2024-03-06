@@ -2,13 +2,13 @@
 
 1. Log into ieng6
 
-```
 Keys Pressed: 
-`ssh ulou@ieng6-201.ucsd.edu`<Enter>
-`cs15lwi24` <Enter>
+`ssh ulou@ieng6-201.ucsd.edu` `<Enter>`
 
-Since I opened a new window for lab 4, I typed `ssh ulou@ieng6-201.ucsd.edu`<Enter> to log into my ieng6 and typed `cs15lwi24`<Enter> to log into the course. As I have already saved my SSH key, it automatically log me into the server without asking for password.
-```
+`cs15lwi24` `<Enter>`
+
+Since I opened a new window for lab 4, I typed `ssh ulou@ieng6-201.ucsd.edu` `<Enter>` to log into my ieng6 and typed `cs15lwi24` `<Enter>` to log into the course. As I have already saved my SSH key, it automatically log me into the server without asking for password.
+
 
 ![Image](Image/ieng6.png)
 
