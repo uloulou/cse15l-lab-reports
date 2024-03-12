@@ -2,6 +2,11 @@
 
 ## Part 1 – Debugging Scenario
 
+Student: Hello! I am writing a bash script for grading my ListExamples.java. But my test never pass. I am quite sure my coding for grading cases are right. Thus, I wonder if it is because of my file did not go through the code properly. This is what the symptoms shown on terminal.
+
+
+
+TA: 
 
 
 ## Part 2 – Reflection
