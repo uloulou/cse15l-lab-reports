@@ -2,7 +2,7 @@
 
 ## Part 1 – Debugging Scenario
 
-Student: Hello! I am writing a bash script for grading the ListExamples.java in lab 6. But one of the sample submissions never passed and even ended up saying no such file and missing. I checked the code in GitHub for that sample submission and it is the same as other samples. It should have passed the test. I am quite sure my coding for grading cases is right and I do see the file in the grading-area and student-submission directory. My guess is my file did not go through the code properly despite it being shown on the directories but I am not sure why. This is what the symptoms show on the terminal. Please help me!
+Student: Hello! I am writing a bash script for grading the `ListExamples.java` in lab 6. But one of the sample submissions never passed and even ended up saying no such file and missing. I checked the code in GitHub for that sample submission and it is the same as other samples. It should have passed the test. I am quite sure my coding for grading cases is right and I do see the file in the `grading-area` and `student-submission` directory. My guess is my file did not go through the code properly despite it being shown on the directories but I am not sure why. This is what the symptoms show on the terminal. Please help me!
 
 ![Image](Image/Bug.png)
 
