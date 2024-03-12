@@ -2,12 +2,18 @@
 
 ## Part 1 – Debugging Scenario
 
-Student: Hello! I am writing a bash script for grading my ListExamples.java. But my test never pass. I am quite sure my coding for grading cases are right. Thus, I wonder if it is because of my file did not go through the code properly. This is what the symptoms shown on terminal.
+Student: Hello! I am writing a bash script for grading the ListExamples.java in lab 6. But one of the sample submissions never passed and even ended up saying no such file and missing. I checked the code in GitHub for that sample submission and it is the same as other samples. It should have passed the test. I am quite sure my coding for grading cases is right and I do see the file in the grading-area and student-submission directory. My guess is my file did not go through the code properly despite it being shown on the directories but I am not sure why. This is what the symptoms show on the terminal. Please help me!
+
+![Image](Image/Bug.png)
+
+![Image](Image/link.png)
+
+TA: Hello! You are on the right direction about your bug and thank you for the screenshot of the symptoms. Seems like you are testing the Sample Submission for implementation saved in a nested directory. Do you remember what does line 18 `cp student-submission/*.java grading-area` in the bash script do? Is it going to go inside the nester directory and copy the code for bash script? If not, think of what commands should you use here. (Hint: what command can recursively traverse the path and list all the files in the directory) 
 
 
+Student: Thank you for the reply! I changed my line 18 from `cp student-submission/*.java grading-area` to `find student-submission -name "ListExamples.java" -exec cp {} grading-area \;` and now it passes all the test! The bug is really because of my bash script did not recursively traverse the nested directory and obtain all files inside.
 
-TA: 
-
+![Image](Image/fix.png)
 
 ## Part 2 – Reflection
 
