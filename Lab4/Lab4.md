@@ -19,7 +19,7 @@ Keys Pressed:
 
 `git clone` `<Space>` `<Ctrl-V>` `<Enter>`
 
-To clone my fork, I first copy the SSH url in GitHub, then I typed `git clone` `<Space>` `<Ctrl-V>` `<Enter>` to get the full command `git clone git@github.com:uloulou/lab7.git` for cloning lab7.
+To clone my fork, I first copy the SSH url in GitHub, then I typed `git clone` `<Space>` `<Ctrl-V>` `<Enter>` to get the full command `git clone git@github.com:uloulou/lab7.git` for cloning `lab7`.
 
 ![Image](Image/clone.png)
 
@@ -35,7 +35,7 @@ Keys Pressed:
 
 `bash t` `<Tab>` --> `bash test.sh`
 
-Before I run the test, since I cloned the file inside ieng6, I need to check what files and directories are in my current directory now. I typed `ls` `<Enter>` and it shows lab7 and wavelet. As I know the newly cloned repository is lab7, I need to change my directory to `lab7` using `cd lab7` `<Enter>`. Then,to check what files and directories are in lab7, I used `<up>` `<up>` `<Enter>` to get `ls` as it is 2 up in the history. I get `ListExamples.java`, `ListExamplesTests.java`, `lib`, and `test.sh`. Lastly, to run the tests, I type `bash t` then use `<Tab>` to fill the remaining words `est.sh` and get `bash test.sh` then I presseed `<Enter>` to run it.
+Before I run the test, since I cloned the file inside ieng6, I need to check what files and directories are in my current directory now. I typed `ls` `<Enter>` and it shows `lab7` and `wavelet`. As I know the newly cloned repository is `lab7`, I need to change my directory to `lab7` using `cd lab7` `<Enter>`. Then, to check what files and directories are in `lab7`, I used `<up>` `<up>` `<Enter>` to get `ls` as it is 2 up in the history. I get `ListExamples.java`, `ListExamplesTests.java`, `lib`, and `test.sh`. Lastly, to run the tests, I type `bash t` then use `<Tab>` to fill the remaining words `est.sh` and get `bash test.sh` then I presseed `<Enter>` to run it.
 
 
 ![Image](Image/fail.png)
